@@ -1,0 +1,80 @@
+What happens when an exception is thrown in a finally block in Java?
+A: The exception is ignored, B: The exception is propagated after the finally block executes, C: The exception is caught by the catch block, D: The program terminates
+B: The exception is propagated after the finally block executes
+
+What is the main purpose of the java.util.concurrent package in Java?
+A: To manage the creation of threads, B: To provide thread-safe data structures and utilities for concurrent programming, C: To enhance the performance of garbage collection, D: To optimize the performance of network I/O
+B: To provide thread-safe data structures and utilities for concurrent programming
+
+What is the purpose of the java.nio.file package in Java?
+A: To handle file and network I/O using traditional streams, B: To provide an API for working with files directories and file systems in a more flexible and efficient way, C: To enable multithreading for file I/O operations, D: To provide encryption and security services for file handling
+B: To provide an API for working with files, directories, and file systems in a more flexible and efficient way
+
+What is the significance of the CompletableFuture class in Java?
+A: It allows you to execute asynchronous code with better control over the flow of computation, B: It is used to handle low-level thread synchronization, C: It is used for controlling the lifecycle of threads, D: It is used to create a thread pool for task management
+A: It allows you to execute asynchronous code with better control over the flow of computation
+
+Which of the following statements about synchronized blocks is true?
+A: They allow only one thread to execute a method at a time, B: They can only be used in non-static methods, C: They allow multiple threads to execute simultaneously, D: They are used to synchronize code within an object or class
+D: They are used to synchronize code within an object or class
+
+What happens when you call the wait() method without a notify() or notifyAll() in Java?
+A: The thread enters an infinite waiting state, B: The thread is blocked, C: The thread throws an exception, D: The thread proceeds without any issue
+A: The thread enters an infinite waiting state
+
+What is the purpose of the assert keyword in Java?
+A: To perform debugging at runtime by testing conditions, B: To mark variables as constants, C: To mark a method as a base method for other classes, D: To guarantee the program runs correctly in production environments
+A: To perform debugging at runtime by testing conditions
+
+Which of the following is true about the java.lang.reflect package in Java?
+A: It is used to enable low-level threading operations, B: It provides APIs for working with classes and their members at runtime, C: It is used for serialization of objects, D: It is used for managing memory allocation in Java
+B: It provides APIs for working with classes and their members at runtime
+
+In Java, which method is used to safely release resources such as database connections or file streams?
+A: close(), B: dispose(), C: finally(), D: finalize()
+A: close()
+
+An interface can have constructors in Java. (T/F)
+True,False
+False
+
+What does the ThreadLocal class in Java do?
+A: It allows each thread to have its own independent copy of a variable, B: It provides a way to share data between threads, C: It ensures that a variable is synchronized across threads, D: It automatically manages the execution of threads
+A: It allows each thread to have its own independent copy of a variable
+
+Which of the following statements about HashMap in Java is true?
+A: It guarantees the order of elements, B: It allows duplicate keys, C: It is thread-safe, D: It stores key-value pairs in a hash table
+D: It stores key-value pairs in a hash table
+
+What does the Enum class in Java represent?
+A: A set of constants, B: A set of dynamic objects, C: A set of methods, D: A collection of classes
+A: A set of constants
+
+What is the difference between StringBuffer and StringBuilder in Java?
+A: StringBuilder is synchronized while StringBuffer is not, B: StringBuffer is synchronized while StringBuilder is not, C: There is no difference, D: StringBuffer is used for multi-threaded applications and StringBuilder is used for single-threaded applications
+B: StringBuffer is synchronized while StringBuilder is not
+
+What does the clone() method in Java do?
+A: It creates a deep copy of an object, B: It creates a shallow copy of an object, C: It creates a reference copy of an object, D: It only works on arrays
+B: It creates a shallow copy of an object
+
+A Thread in Java can be paused using the pause() method. (T/F)
+True, False
+False
+
+Which of the following is true about the java.util.Optional class in Java?
+A: It is used to handle null values in a more elegant way, B: It is used to generate random values, C: It is used for multi-threaded data synchronization, D: It is used for managing file I/O operations
+A: It is used to handle null values in a more elegant way
+
+What is the purpose of java.util.concurrent.locks.Lock interface in Java?
+A: To provide an alternative to the synchronized keyword, B: To lock an object for exclusive use by a thread, C: To manage memory allocation for threads, D: To handle exceptions in a multi-threaded environment
+A: To provide an alternative to the synchronized keyword
+
+What does the RuntimeException class represent in Java?
+A: An error that occurs at compile-time, B: An exception that is checked at compile-time, C: An exception that occurs during program execution, D: An exception that cannot be caught
+C: An exception that occurs during program execution
+
+The Serializable interface must be implemented explicitly by a class to allow its objects to be serialized in Java. (T/F)
+True, False
+True
+

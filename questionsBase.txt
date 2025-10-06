@@ -1,0 +1,80 @@
+Polymorphism is a thing? (T/F)
+True,False
+True
+
+What is Polymorphism?
+A: Polymorphism refers to the process of turning data into machine code for faster execution,B: Polymorphism is the method by which a database stores multiple copies of the same data to ensure redundancy,C: Polymorphism is the practice of writing code that automatically adapts to different operating systems,D: Polymorphism is the ability of a variable to take on different types in object-oriented programming
+D: Polymorphism is the ability of a variable to take on different types in object-oriented programming
+
+The static keyword in Java allows methods and variables to be accessed without creating an instance of the class? (T/F)
+True,False
+True
+
+What is an Interface in Java?
+A: An interface is a reference type in Java that can contain only constants method signatures default methods static methods and nested types,B: An interface is a class that cannot be instantiated,C: An interface is a data structure for storing multiple values,D: An interface is a way to create a new thread in Java
+A: An interface is a reference type in Java that can contain only constants method signatures default methods static methods and nested types
+
+What does the final keyword do in Java?
+A: It prevents a variable from being modified a method from being overridden or a class from being inherited,B: It makes a method execute faster,C: It allows variables to be modified at runtime,D: It is used to declare abstract methods
+A: It prevents a variable from being modified a method from being overridden or a class from being inherited
+
+What is the default value of a boolean variable in Java?
+A: true,B: false,C: null,D: 0
+B: false
+
+In Java, the main method must be declared as public static void main(String[] args) to be executed correctly. (T/F)
+True,False
+True
+
+What is the result of the expression 5 / 2 in Java?
+A: 2.5,B: 2,C: 2.0,D: 3.0
+B: 2
+
+What is the purpose of the super keyword in Java?
+A: It is used to access parent class methods and constructors,B: It creates an instance of the current class,C: It allows for method overloading,D: It terminates the current method execution
+A: It is used to access parent class methods and constructors
+
+Which of the following best describes method overloading in Java?
+A: Defining multiple methods with the same name but different parameters within the same class,B: Defining a method in a subclass that has the same name and parameters as a method in the parent class,C: Calling multiple methods at the same time using a loop,D: Using recursion to execute a method repeatedly
+A: Defining multiple methods with the same name but different parameters within the same class
+
+What is the purpose of the this keyword in Java?
+A: It refers to the current instance of the class,B: It refers to the parent class constructor,C: It is used to call a static method,D: It is a special keyword used to define interfaces
+A: It refers to the current instance of the class
+
+What happens if you try to access an array index within its valid range in Java?
+A: The program will throw an ArrayIndexOutOfBoundsException,B: The program will access the element at that index normally,C: The program will return null if the index is even,D: The program will resize the array automatically
+B: The program will access the element at that index normally
+
+Is Inheritance a feature of Object-Oriented Programming? (T/F)
+True,False
+True
+
+What is Inheritance in Java?
+A: Inheritance is the process by which one class acquires the attributes and methods of another class,B: Inheritance is when a class is able to access data from a database,C: Inheritance is the ability to execute multiple methods simultaneously,D: Inheritance is a technique for improving the performance of your program
+A: Inheritance is the process by which one class acquires the attributes and methods of another class
+
+Can a constructor in Java be overloaded? (T/F)
+True,False
+True
+
+What is the result of the expression 10 % 3 in Java?
+A: 3,B: 1,C: 10,D: 0
+B: 1
+
+Which of the following is true about abstract classes in Java?
+A: An abstract class can be instantiated directly,B: An abstract class cannot contain methods with implementations,C: An abstract class can have both abstract and concrete methods,D: An abstract class must contain at least one constructor
+C: An abstract class can have both abstract and concrete methods
+
+What is the purpose of the "interface" keyword in Java?
+A: It is used to create a new class with the same name as an existing class,B: It is used to define a class that implements multiple methods,C: It is used to define a contract that other classes can implement,D: It is used to create an array of objects
+C: It is used to define a contract that other classes can implement
+
+What is the purpose of the "break" statement in Java?
+A: It terminates the execution of the program,B: It exits from the current loop or switch statement,C: It pauses the program for a set amount of time,D: It skips to the next iteration of a loop
+B: It exits from the current loop or switch statement
+
+Can you override a static method in Java? (T/F)
+True,False
+False
+

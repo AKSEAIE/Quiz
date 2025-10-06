@@ -1,0 +1,80 @@
+What is the difference between == and .equals() in Java?
+A: Both are used for comparing primitive data types only,B: == compares object references while .equals() compares object content,C: == compares object content while .equals() compares memory location,D: There is no difference
+B: == compares object references while .equals() compares object content
+
+Can a class extend more than one class in Java? (T/F)
+True,False
+False
+
+Which Java keyword is used to prevent inheritance of a class?
+A: abstract,B: final,C: static,D: protected
+B: final
+
+What does the "instanceof" operator do?
+A: It checks if an object is null,B: It checks if an object belongs to a specific class or subclass,C: It creates a new instance of a class,D: It converts a class to an interface
+B: It checks if an object belongs to a specific class or subclass
+
+Can you declare a constructor as final in Java? (T/F)
+True,False
+False
+
+Which of the following correctly creates a thread in Java?
+A: Implement the Runnable interface and override run(),B: Use the new keyword with the Runnable class directly,C: Override the execute() method in a class,D: Call Thread.start() in the main method without implementing anything
+A: Implement the Runnable interface and override run()
+
+What is the output of this code: System.out.println(10 + "20");
+A: 30,B: 1020,C: Error,D: 20
+B: 1020
+
+Which of the following is used to handle exceptions in Java?
+A: try-catch,B: throw-catch,C: error handling block,D: assertion
+A: try-catch
+
+Is it mandatory to override all methods in an interface when implementing it? (T/F)
+True,False
+True
+
+What will happen if you don’t catch a checked exception in Java?
+A: Compilation error,B: The program runs normally,C: The JVM handles it automatically,D: It is ignored
+A: Compilation error
+
+What is the result of Math.floor(4.7)?
+A: 4.0,B: 5.0,C: 4,D: 5
+A: 4.0
+
+Which access modifier allows access within the same package but not outside?
+A: private,B: public,C: protected,D: default
+D: default
+
+Can a class have multiple constructors in Java? (T/F)
+True,False
+True
+
+What is the use of the "transient" keyword in Java?
+A: To make a variable static,B: To prevent a variable from being serialized,C: To enable a variable for multithreading,D: To mark a method for optimization
+B: To prevent a variable from being serialized
+
+Which of these types can be used in a switch statement in Java (Java 7+)?
+A: int,B: String,C: enum,D: All of the above
+D: All of the above
+
+What does the "volatile" keyword indicate in Java?
+A: The variable can be accessed by only one thread at a time,B: The variable might be modified asynchronously by different threads,C: The variable cannot be modified,D: The variable is constant
+B: The variable might be modified asynchronously by different threads
+
+What is the output of: System.out.println(1 + 2 + "3" + 4 + 5);
+A: 3345,B: 345,C: 33,D: 12345
+A: 3345
+
+Which of these is not a feature of Java?
+A: Object-oriented,B: Platform dependent,C: Secure,D: Multithreaded
+B: Platform dependent
+
+Is it possible for a Java method to return multiple values directly? (T/F)
+True,False
+False
+
+What is the primary benefit of using generics in Java?
+A: Generics allow you to write code that can operate on objects of various types while providing compile-time type safety,B: Generics improve runtime performance by optimizing bytecode,C: Generics are used to manage memory manually,D: Generics allow multiple inheritance in Java
+A: Generics allow you to write code that can operate on objects of various types while providing compile-time type safety
+
